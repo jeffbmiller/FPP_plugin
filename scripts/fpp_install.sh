@@ -1,7 +1,9 @@
-pushd $(dirname $(which $0))
-target_PWD=$(readlink -f .)
-/opt/fpp/scripts/update_plugin ${target_PWD##*/}
-echo ; echo “Please reboot fppd.” ; echo
-. /opt/fpp/scripts/common
-setSetting rebootFlag 1
-popd
+
+BASEDIR=$(dirname $0)
+cd $BASEDIR
+cd ..
+make "SRCDIR=${SRCDIR}"
+
+
+. ${FPPDIR}/scripts/common
+setSetting restartFlag 1
