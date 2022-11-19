@@ -19,17 +19,11 @@ $menuEntries = Array(
 		'wrap' => 1
 	),
 	Array(
-		'text' => 'Template - Home',
-		'type' => 'help',
-		'page' => 'https://github.com/FalconChristmas/fpp-plugin-Template',
+		'text' => 'Template - Content Setup',
+		'type' => 'content',
+		'page' => 'content.php',
 		'wrap' => 1
 	),
-	Array(
-		'text' => 'Template - About',
-		'type' => 'help',
-		'page' => 'about.php',
-		'wrap' => 1
-	)
 );
 
 ##############################################################################
