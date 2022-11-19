@@ -3,9 +3,9 @@
 	"name": "Test FPP Plugin",
 	"author": "Jeff Miller",
 	"description": "This is a test",
-	"homeURL": "https://github.com/FalconChristmas/fpp-plugin-Template",
-	"srcURL": "https://github.com/FalconChristmas/fpp-plugin-Template.git",
-	"bugURL": "https://github.com/FalconChristmas/fpp-plugin-Template/issues",
+	"homeURL": "https://github.com/jeffbmiller/FPP_plugin",
+	"srcURL": "https://github.com/jeffbmiller/FPP_plugin.git",
+	"bugURL": "https://github.com/jeffbmiller/FPP_plugin/issues",
 	"allowUpdates": 1,
 	"versions": [
 		{
